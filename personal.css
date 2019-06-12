@@ -15,47 +15,51 @@ body {
     width: 960px;
     font-family: 'Fresca', sans-serif;
     margin: 0 auto;
-    background-image: url(images/honey_im_subtle.png);
+    background: #fc9b00;
 }
 
-#container-body {
+.container-body {
     min-height: 100%;
     position: relative;
 }
 
-#header {
+.header {
     font-size: 30px;
     text-align: center;
     color: #C0BFC3;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    background-image: linear-gradient(#C0BFC3, darkblue);
+    text-shadow: 1px 1px 2px black, 0 0 25px #333, 0 0 5px #333;
+    background-image: linear-gradient(#C0BFC3, #333);
     margin-bottom: 20px;
 }
 
-#header h1 {
+.header h1 {
     padding: 20px 30px;
 }
 
-#content {
+.content {
     display: flex;
     margin-bottom: 20px;
-    background: darkblue;
+    background: #333;
     padding-bottom: 50px;
 }
 
-#content h2 {
+.content h2 {
     color: #C0BFC3;
     padding-bottom: 10px;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px #333, 0 0 5px #333;
 }
 
-#content p {
+.content p {
     text-indent: 30px;
     color: #C0BFC3;
     line-height: 25px;
 }
 
-#content hr {
+#p3 {
+    text-indent: 0%;
+}
+
+.content hr {
     margin: 10px 0;
     border: 0;
     height: 1px;
@@ -78,14 +82,25 @@ body {
     line-height: 50px;
 }
 
-#footer {
+span {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+span:hover {
+    color: #fc9b00;
+}
+
+.footer {
     height: 50px;
     width: 100%;
     position: absolute;
     bottom: 0;
     text-align: center;
-    background-image: linear-gradient(darkblue, #C0BFC3);
+    background-image: linear-gradient(#333, #C0BFC3);
     padding: 30px 0 0 5px;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px #333, 0 0 5px #333;
     color: #C0BFC3;
 }
